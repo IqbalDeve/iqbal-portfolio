@@ -1,0 +1,108 @@
+/* ===========================
+   RESPONSIVE — TABLET 1024px
+=========================== */
+@media (max-width: 1024px) {
+  .hero-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-left {
+    max-width: 100%;
+  }
+  .hero-right {
+    order: -1;
+  }
+  .hero-desc {
+    margin: 0 auto 36px;
+  }
+  .hero-btns {
+    justify-content: center;
+  }
+  .hero-tech-row {
+    justify-content: center;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .services-layout {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .testi-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* ===========================
+   RESPONSIVE — TABLET 768px
+=========================== */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .section-wrap {
+    padding: 70px 5%;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .testi-cards {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .hero-stats {
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .services-cards {
+    grid-template-columns: 1fr;
+  }
+  .tm-word {
+    font-size: 2.5rem;
+  }
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-socials {
+    justify-content: center;
+  }
+}
+
+/* ===========================
+   RESPONSIVE — MOBILE 600px
+=========================== */
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-highlights {
+    grid-template-columns: 1fr;
+  }
+  .hero-float-card {
+    display: none;
+  }
+  .hero-stats {
+    gap: 16px;
+  }
+  .hs-num {
+    font-size: 1.6rem;
+  }
+  .testi-marquee-wrap {
+    padding: 24px 0 12px;
+  }
+}
